@@ -11,6 +11,7 @@
     "gonvex:deploy": "gonvex deploy --env production",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "test:deployment": "node tests/deployment-smoke.mjs",
     "typecheck": "tsc -b"
   },
   "dependencies": {
